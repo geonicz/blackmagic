@@ -44,12 +44,12 @@ run meson setup build-bluepill --cross-file ./cross-file/bluepill.ini
 run meson compile -C build-bluepill
 # run meson setup build-ctxlink --cross-file ./cross-file/ctxlink.ini
 # run meson compile -C build-ctxlink
+# run ls
+run git pull
 run meson setup build-f072 --cross-file ./cross-file/f072.ini
 run meson compile -C build-f072
 # run meson setup build-f3 --cross-file ./cross-file/f3.ini
 # run meson compile -C build-f3
-# run ls
-# run git pull
 # run meson setup build-f4discovery --cross-file ./cross-file/f4discovery.ini
 # run meson compile -C build-f4discovery
 # run meson setup build-hydrabus --cross-file ./cross-file/hydrabus.ini
