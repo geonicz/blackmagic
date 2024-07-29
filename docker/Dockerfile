@@ -27,6 +27,7 @@ run meson setup build-stlink --cross-file ./cross-file/stlink.ini
 # run meson setup build-stlinkv3 --cross-file ./cross-file/stlinkv3.ini
 # run meson setup build-swlink --cross-file ./cross-file/swlink.ini
 
+run meson compile -C build-stlink
 # run meson compile -C build-96b_carbon
 # run meson compile -C build-arm-none-eabi
 run meson compile -C build-blackpill-f401cc
@@ -40,7 +41,7 @@ run meson compile -C build-bluepill
 # run meson compile -C build-hydrabus
 # run meson compile -C build-launchpad-icdi
 # run meson compile -C build-native
-run meson compile -C build-stlink
+
 # run meson compile -C build-stlinkv3
 # run meson compile -C build-swlink
 
