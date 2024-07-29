@@ -44,7 +44,7 @@ run meson setup build-bluepill --cross-file ./cross-file/bluepill.ini
 run meson compile -C build-bluepill
 # run meson setup build-ctxlink --cross-file ./cross-file/ctxlink.ini
 # run meson compile -C build-ctxlink
-# run ls
+run ls
 run git pull
 run meson setup build-f072 --cross-file ./cross-file/f072.ini
 run meson compile -C build-f072
