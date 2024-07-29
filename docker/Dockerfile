@@ -54,6 +54,7 @@ run meson compile -C build-bluepill
 # run meson compile -C build-hydrabus
 # run meson setup build-launchpad-icdi --cross-file ./cross-file/launchpad-icdi.ini
 # run meson compile -C build-launchpad-icdi
+run pwd
 run git pull
 run meson setup build-native --cross-file ./cross-file/native.ini
 run meson compile -C build-native
