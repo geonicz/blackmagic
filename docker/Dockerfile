@@ -4,6 +4,7 @@ label maintainer=George
 
 run apt update
 run apt install -yyy gcc-arm-none-eabi meson ninja-build git fish htop mc vim
+run pwd
 run git clone https://github.com/geonicz/blackmagic.git && cd blackmagic
 run mkdir build-96b_carbon build-arm-none-eabi build-blackpill-f401cc build-blackpill-f401ce build-blackpill-f411ce build-bluepill build-ctxlink build-f072 build-f3 build-f4discovery build-hydrabus build-launchpad-icdi build-native build-stlink build-stlinkv3 build-swlink
 
