@@ -54,14 +54,15 @@ run meson compile -C build-bluepill
 # run meson compile -C build-hydrabus
 # run meson setup build-launchpad-icdi --cross-file ./cross-file/launchpad-icdi.ini
 # run meson compile -C build-launchpad-icdi
-# run meson setup build-native --cross-file ./cross-file/native.ini
-# run meson compile -C build-native
-run meson setup build-stlink --cross-file ./cross-file/stlink.ini
-run meson compile -C build-stlink
+run git pull
+run meson setup build-native --cross-file ./cross-file/native.ini
+run meson compile -C build-native
+# run meson setup build-stlink --cross-file ./cross-file/stlink.ini
+# run meson compile -C build-stlink
 # run meson setup build-stlinkv3 --cross-file ./cross-file/stlinkv3.ini
 # run meson compile -C build-stlinkv3
-run meson setup build-swlink --cross-file ./cross-file/swlink.ini
-run meson compile -C build-swlink
+# run meson setup build-swlink --cross-file ./cross-file/swlink.ini
+# run meson compile -C build-swlink
 
 volume /blackmagic
 shell ["/usr/bin/fish"]
